@@ -1,56 +1,80 @@
 {
-    "products":[
+    "products": [
         {
-            "id":1,
-            "name":"Product 1",
-            "price":100000,
-            "description":"This is product 1"
+            "id": 1,
+            "name": "Product 1",
+            "price": 100000,
+            "description": "This is product 1"
         },
         {
-            "id":2,
-            "name":"Product 2",
-            "price":200,
-            "description":"This is product 2"
+            "id": 2,
+            "name": "Product 2",
+            "price": 200,
+            "description": "This is product 2"
         },
         {
-            "id":3,
-            "name":"Product 3",
-            "price":300,
-            "description":"This is product 3"
+            "id": 3,
+            "name": "Product 3",
+            "price": 300,
+            "description": "This is product 3"
         },
         {
-            "id":4,
-            "name":"Product 4",
-            "price":300,
-            "description":"This is product 4"
+            "id": 4,
+            "name": "Product 4",
+            "price": 300,
+            "description": "This is product 4"
         }
     ],
-    "news":[
+    "news": [
         {
-            "id":1,
-            "title":"News 1",
-            "description":"This is news 1",
-            "category":"ngu"
+            "id": 1,
+            "title": "News 1",
+            "description": "This is news 1",
+            "category": "ngu"
         },
         {
-            "id":2,
-            "title":"News 2",
-            "description":"This is news 2",
-            "category":"ngu"
+            "id": 2,
+            "title": "News 2",
+            "description": "This is news 2",
+            "category": "ngu"
         },
         {
-            "id":3,
-            "title":"News 3",
-            "description":"This is news 3"
-            ,
-            "category":"ngu"
+            "id": 3,
+            "title": "News 3",
+            "description": "This is news 3",
+            "category": "ngu"
         },
         {
-            "id":4,
-            "title":"News 4",
-            "description":"This is news 4"
-            ,
-            "category":"nguxi"
+            "id": 4,
+            "title": "News 4",
+            "description": "This is news 4",
+            "category": "nguxi"
+        }
+    ],
+    "dashboard": [
+        {
+            "id": 1,
+            "title": "Dashboard 1",
+            "description": "This is dashboard 1",
+            "category": "ngu"
+        },
+        {
+            "id": 2,
+            "title": "Dashboard 2",
+            "description": "This is dashboard 2",
+            "category": "ngu"
+        },
+        {
+            "id": 3,
+            "title": "Dashboard 3",
+            "description": "This is dashboard 3",
+            "category": "ngu"
+        },
+        {
+            "id": 4,
+            "title": "Dashboard 4",
+            "description": "This is dashboard 4",
+            "category": "nguxi"
         }
     ]
 }

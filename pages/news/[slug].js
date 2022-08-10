@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Category({ news, category }) {
+export default function Category({ news, slug }) {
     return <>
         <div>Category</div>
-        <h1>${category}</h1>
+        <h1>${slug}</h1>
 
         <h1>lisst new </h1>
         {news.map(news => {
@@ -18,15 +18,19 @@ export default function Category({ news, category }) {
     </>
 }
 
-export async function getServerSideProps({ params }) {
-    const category = params.category
-    const response = await fetch(`http://localhost:4000/news?category=${category}`)
+export async function getServerSideProps(context) {
+    const {params ,req ,res,query} = context
+    console.log(req.headers.cookie)
+    console.log(query)
+    res.setHeader('Set-Cookie', ['name=Long'])
+    const {slug} = params
+    const response = await fetch(`http://localhost:4000/news?category=${slug}`)
     const data = await response.json()
 
     return {
         props: {
             news: data,
-            category,
+            slug,
         }
     }
 }
