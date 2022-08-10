@@ -1,28 +1,32 @@
+
 import { useState, useEffect } from 'react'
 
-export default function Dashboard() {
+function Dashboard() {
     const [isLoading, setIsLoading] = useState(true)
-    const [dasboardData, setDasboardData] = useState(null)
-
+    const [dashboardData, setDashboardData] = useState(null)
     useEffect(() => {
-        async function fetchData() {
+        async function fetchDashboardData() {
             const response = await fetch('http://localhost:4000/dashboard')
             const data = await response.json()
-            setDasboardData(data)
+            setDashboardData(data)
             setIsLoading(false)
         }
-        fetchData()
+        fetchDashboardData()
     }, [])
 
-    if(isLoading){
-        return <div>Loading...</div>
+    if (isLoading) {
+        return <h2>Loading...</h2>
     }
-    return <>
-        <h1>Dasboard</h1>
-        <h2>id: {dasboardData.id}</h2>
-        <h2>title: {dasboardData.title}</h2>
-        <h2>description: {dasboardData.description}</h2>
-        <h2>category: {dasboardData.category}</h2>
-    
-    </>
+
+    return (
+        <div>
+            <h2>Dashboard</h2>
+            <h2>Posts - {dashboardData.id}</h2>
+            <h2>Likes - {dashboardData.title}</h2>
+            <h2>Followers - {dashboardData.description}</h2>
+            <h2>Following - {dashboardData.category}</h2>
+        </div>
+    )
 }
+
+export default Dashboard
