@@ -57,6 +57,62 @@
             "title": "Dashboard 1",
             "description": "This is dashboard 1",
             "category": "ngu"
-        }
+        },
+
+        "events":[
+            {
+                "id": 1,
+                "title": "Event 1",
+                "description": "This is event 1",
+                "category": "ngu"
+            },
+            {
+                "id": 2,
+                "title": "Event 2",
+                "description": "This is event 2",
+                "category": "ngu"
+            },
+            {
+                "id": 3,
+                "title": "Event 3",
+                "description": "This is event 3",
+                "category": "longka"
+            },
+            {
+                "id": 4,
+                "title": "Event 4",
+                "description": "This is event 4",
+                "category": "nguxi"
+            }
+            ,
+            {
+                "id": 5,
+                "title": "Event 4",
+                "description": "This is event 4",
+                "category": "nguxi"
+            }
+            ,
+            {
+                "id": 6,
+                "title": "Event 4",
+                "description": "This is event 4",
+                "category": "nguxi"
+            }
+            ,
+            {
+                "id": 4,
+                "title": "Event 4",
+                "description": "This is event 4",
+                "category": "nguxi"
+            }
+            ,
+            {
+                "id": 7,
+                "title": "Event 4",
+                "description": "This is event 4",
+                "category": "nguxi"
+            }
+    
+        ]
   
 }
