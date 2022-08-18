@@ -1,6 +1,6 @@
 import Head from 'next/head';
-import Footer from '../components/footer';
-import style from '../styles/About.module.scss';
+import Footer from '@/layout/footer';
+import style from 'styles/About.module.scss';
 import Image from 'next/image';
 function About() {
    return <div className={style.highlight} > <h1 className="text-3xl font-bold underline">
@@ -10,7 +10,7 @@ function About() {
       {['2', '3'].map((path) => {
          return (
             <div key={path}>
-               <image src={`/${path}.jpg`} width='200' height='200' alt="" />
+               <Image src={`/${path}.jpg`} width='600' height='600' alt="" />
             </div>
 
          )
