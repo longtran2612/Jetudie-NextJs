@@ -13,7 +13,7 @@ function Products({products}){
 }
 export default Products;
 
-export async function getStaticProps() {
+export async function getStaticProps(context) {
     console.log('getStaticProps');
     const response = await fetch('http://localhost:4000/products')
     const data = await response.json()
