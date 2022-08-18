@@ -11,4 +11,17 @@ export const comments = [
         id: 3,
         name: 'John Doe 3',
     }
+    ,{
+        id: "4",
+        name: 'John Doe 3',
+    }
+    ,{
+        id: "5",
+        name: 'John Doe 3',
+    }
+    ,{
+        id: "6",
+        name: 'John Doe 3',
+    }
+
 ]
