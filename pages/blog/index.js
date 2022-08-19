@@ -5,7 +5,7 @@ export default function blog({user,password}) {
   return (
     <div>
 
-      <h1>{user} --  {password}</h1>
+      <h1>{user} -- {password}</h1>
     </div>
   )
 }

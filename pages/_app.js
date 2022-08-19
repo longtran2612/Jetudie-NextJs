@@ -3,6 +3,7 @@ import '../styles/layout.scss'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from '../components/layout/header'
 import Footer from '../components/layout/footer'
+import Navbar from 'components/narbar'
 
 function MyApp({ Component, pageProps }) {
   if(Component.getLayout) {
@@ -10,7 +11,7 @@ function MyApp({ Component, pageProps }) {
   }
 
   return <>
-  <Header/>
+  <Navbar/>
   <Component {...pageProps} />
   <Footer/>
   </> 
