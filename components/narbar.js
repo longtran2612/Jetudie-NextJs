@@ -12,6 +12,9 @@ function Navbar() {
         <li>
           <Link href='/'>
             <a>Home</a>
+        
+  
+
           </Link>
         </li>
         <li>
@@ -30,7 +33,7 @@ function Navbar() {
               <a
                 onClick={e => {
                   e.preventDefault()
-                  signIn('github')
+                  signIn()
                 }}>
                 Sign In
               </a>
