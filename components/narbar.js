@@ -12,8 +12,6 @@ function Navbar() {
         <li>
           <Link href='/'>
             <a>Home</a>
-        
-  
 
           </Link>
         </li>
@@ -25,6 +23,11 @@ function Navbar() {
         <li>
           <Link href='/blog'>
             <a>Blog</a>
+          </Link>
+        </li>
+        <li>
+          <Link href='/auth'>
+            <a>Auth</a>
           </Link>
         </li>
         {!session && (
