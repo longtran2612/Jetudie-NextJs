@@ -3,12 +3,17 @@ import { signIn, signOut, useSession } from "next-auth/react";
 
 export default function Blog({ user, password }) {
   const { status } = useSession();
+  const { data: session } = useSession();
+  console.log(session);
 
   useEffect(() => {
-    if (status === "unauthenticated") {
-      signIn();
+    async function auth() {
+      if (!session) {
+        signIn();
+      }
     }
-  }, []);
+    auth()
+  }, [session]);
 
   return (
     <div>

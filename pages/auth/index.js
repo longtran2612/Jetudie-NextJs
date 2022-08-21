@@ -1,5 +1,6 @@
 import React from 'react'
 import { useSession, signIn, signOut } from "next-auth/react"
+import AccessToken from 'components/accessToken'
 
 export default function AuthPage() {
     const { data: session } = useSession()
@@ -8,6 +9,7 @@ export default function AuthPage() {
         <>
           Signed in as {session.user.email} <br />
           <button onClick={() => signOut()}>Sign out</button>
+          <AccessToken/>
         </>
       )
     }
