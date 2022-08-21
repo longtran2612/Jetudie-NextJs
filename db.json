@@ -25,94 +25,25 @@
             "description": "This is product 4"
         }
     ],
-    "news": [
-        {
-            "id": 1,
-            "title": "News 1",
-            "description": "This is news 1",
-            "category": "ngu"
-        },
-        {
-            "id": 2,
-            "title": "News 2",
-            "description": "This is news 2",
-            "category": "ngu"
-        },
-        {
-            "id": 3,
-            "title": "News 3",
-            "description": "This is news 3",
-            "category": "ngu"
-        },
-        {
-            "id": 4,
-            "title": "News 4",
-            "description": "This is news 4",
-            "category": "nguxi"
-        }
-    ],
-    "dashboard": 
-        {
-            "id": 1,
-            "title": "Dashboard 1",
-            "description": "This is dashboard 1",
-            "category": "ngu"
-        },
-
-        "events":[
+            "todos":[
             {
-                "id": 1,
-                "title": "Event 1",
-                "description": "This is event 1",
-                "category": "ngu"
+                "id":1,
+                "title":"Learn React"
+               
             },
             {
-                "id": 2,
-                "title": "Event 2",
-                "description": "This is event 2",
-                "category": "ngu"
+                "id":2,
+                "title":"Learn Redux"
+              
             },
             {
-                "id": 3,
-                "title": "Event 3",
-                "description": "This is event 3",
-                "category": "longka"
-            },
-            {
-                "id": 4,
-                "title": "Event 4",
-                "description": "This is event 4",
-                "category": "nguxi"
+                "id":3,
+                "title":"Learn React Router"
+               
             }
-            ,
-            {
-                "id": 5,
-                "title": "Event 4",
-                "description": "This is event 4",
-                "category": "nguxi"
-            }
-            ,
-            {
-                "id": 6,
-                "title": "Event 4",
-                "description": "This is event 4",
-                "category": "nguxi"
-            }
-            ,
-            {
-                "id": 4,
-                "title": "Event 4",
-                "description": "This is event 4",
-                "category": "nguxi"
-            }
-            ,
-            {
-                "id": 7,
-                "title": "Event 4",
-                "description": "This is event 4",
-                "category": "nguxi"
-            }
-    
+        
         ]
+    
+     
   
 }
